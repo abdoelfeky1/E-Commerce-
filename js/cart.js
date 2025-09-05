@@ -78,7 +78,6 @@ export function initcart() {
     cart: [],
   };
 
-  // تحديث الأسعار
   function updateTotalPrice() {
     if (cart.length === 0) {
       displaySubTotal.textContent = `0 $`;

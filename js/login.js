@@ -32,7 +32,7 @@ export function initLogin() {
           },
         }).showToast();
         setTimeout(() => {
-          window.location.href = "../home.html";
+          window.location.href = "home.html";
         }, 2000);
         sessionStorage.setItem("n", username);
       } else {
